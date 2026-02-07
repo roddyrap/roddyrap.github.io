@@ -1,0 +1,32 @@
+baseURL = "https://roddyra.dev/"
+
+languageCode = "en-us"
+title = "Roddy Rappaport"
+theme = [ "PaperMod" ]
+
+[menus]
+
+    [[menus.main]]
+        name = "Home"
+        url = "/"
+        weight = 10
+
+    [[menus.main]]
+        name = "Web Projects"
+        url = "/web-projects/"
+        weight = 20
+
+    [[menus.main]]
+        name = "Android Projects"
+        url = "/android-projects/"
+        weight = 30
+
+    [[menus.main]]
+        name = "Minecraft Projects"
+        url = "/minecraft-projects/"
+        weight = 40
+
+    [[menus.main]]
+        name = "Miscellaneous Projects"
+        url = "/misc-projects/"
+        weight = 50
