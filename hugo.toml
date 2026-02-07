@@ -2,31 +2,74 @@ baseURL = "https://roddyra.dev/"
 
 languageCode = "en-us"
 title = "Roddy Rappaport"
-theme = [ "PaperMod" ]
+theme = [ "PaperMod", "hugo-admonitions" ]
 
-[menus]
+# For images with resizing bcause Markdown is annoying.
+[markup.goldmark.renderer]
+    unsafe = true
 
-    [[menus.main]]
-        name = "Home"
-        url = "/"
-        weight = 10
+[[menus.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
 
-    [[menus.main]]
-        name = "Web Projects"
-        url = "/web-projects/"
-        weight = 20
+[[menus.main]]
+    name = "Web Projects"
+    url = "/web-projects"
+    weight = 20
 
-    [[menus.main]]
-        name = "Android Projects"
-        url = "/android-projects/"
-        weight = 30
+# [[menus.main]]
+#     name = "Android Projects"
+#     url = "/android-projects"
+#     weight = 30
 
-    [[menus.main]]
-        name = "Minecraft Projects"
-        url = "/minecraft-projects/"
-        weight = 40
+[[menus.main]]
+    name = "Retro Projects"
+    url = "/retro-projects"
+    weight = 40
 
-    [[menus.main]]
-        name = "Miscellaneous Projects"
-        url = "/misc-projects/"
-        weight = 50
+[[menus.main]]
+    name = "Miscellaneous Projects"
+    url = "/misc-projects"
+    weight = 50
+
+[[menus.main]]
+    pre = '<img alt="GitHub logo" src="/GitHub_Invertocat_White.svg" height=30 width=30 style="display: inline-block; vertical-align:middle;"/>'
+    url = "https://github.com/roddyrap"
+    weight = 60
+
+[params]
+ShowBreadCrumbs = true
+
+[params.assets]
+    favicon = "/icons/favicon.ico"
+    favicon16x16 = "/icons/favicon-16x16.png"
+    favicon32x32 = "/icons/favicon-32x32.png"
+    apple_touch_icon = "/icons/apple-touch-icon.png"
+
+[params.homeInfoParams]
+Title = "About Me"
+Content = """
+Hi! My name is Roddy Rappaport.  
+<br/>
+I am a high-school computer science graduate, but I learned most of the things showcased on this website by myself. Programming has been a hobby of mine for years at this point and is something I greatly enjoy.  
+<br/>
+Whether it’s completing an assignment for school, making something for a friend, or sitting late at night trying to figure out what went wrong, making things has always been a pleasure.  
+<br/>
+I made this website to put in it my most presentable projects. I hope that some people will find the projects handy. Or at least fun to look or laugh at.  
+<br/>
+Enjoy!
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/roddyrap"
+[[params.socialIcons]]
+name = "itchio"
+url = "https://roddy2242.itch.io/"
+[[params.socialIcons]]
+name = "email"
+url = "mailto:roddy.rappaport@gmail.com"
+[[params.socialIcons]]
+name = "matrix"
+url = "https://matrix.to/#/@roddy_ra:matrix.org"
