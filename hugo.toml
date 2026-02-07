@@ -4,6 +4,11 @@ languageCode = "en-us"
 title = "Roddy Rappaport"
 theme = [ "PaperMod", "hugo-admonitions" ]
 
+# Mentioned in the GitHub pages guide.
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
+
 # For images with resizing bcause Markdown is annoying.
 [markup.goldmark.renderer]
     unsafe = true

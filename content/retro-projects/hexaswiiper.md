@@ -9,7 +9,7 @@ Hexaswiiper is a basic minesweeper clone with an hexagonal board for the Wii.
 
 [Hexaswiiper is on the OpenShopChannel (OSC)](https://oscwii.org/library/app/hexaswiiper)
 
-[Download the boot.dol file](https://github.com/roddyrap/hexaswiiper/releases/latest/download/hexaswiiper.dol)
+[Download the dol file](https://github.com/roddyrap/hexaswiiper/releases/latest/download/hexaswiiper.dol)
 
 ## Images
 
